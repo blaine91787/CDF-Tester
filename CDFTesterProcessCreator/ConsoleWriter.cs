@@ -123,7 +123,7 @@ namespace CDFTesterProcessCreator
             ClearLine(-1);
 #endif
             WriteAtPosition(tempstr, 0, 0);
-            Console.WriteLine("{0} has exited.\n", proc.CDFName);
+            Console.WriteLine("{0} has exited.\n", proc.CDFPath);
             OrigRow = Console.CursorTop;
         }
 

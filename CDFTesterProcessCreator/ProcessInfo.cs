@@ -97,7 +97,7 @@ namespace CDFTesterProcessCreator
             pInfo.Process = p;
             pInfo.CDFPath = product + year;
             pInfo.Clock = Stopwatch.StartNew();
-            Console.WriteLine("Starting process # {0} for : {1}\n", pInfo.Process.Id, pInfo.CDFName);
+            Console.WriteLine("Starting process # {0} for : {1}\n", pInfo.Process.Id, pInfo.CDFPath);
             Processes.Add(pInfo);
         }
 
